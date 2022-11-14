@@ -1,0 +1,35 @@
+$color-primary: red;
+$color-secondary: blue;
+$color-tertiary: green;
+
+div {    
+    width: 80vw;
+    border: 1px $color-primary solid;
+}
+h1 {
+    display: flex;
+    color: $color-tertiary;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(197, 151, 228);
+    text-decoration-thickness: 0.1rem;
+    text-underline-offset: 0.6rem;
+}
+section {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    
+}
+article {
+    width: 300px;
+    padding: 25px;
+    border: 1px green solid;
+    text-align: center;
+    .red-text {
+        color: $color-primary;
+    }
+    .blue-text {
+        color: $color-secondary;
+    }
+}
